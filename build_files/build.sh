@@ -13,6 +13,7 @@ set -ouex pipefail
 dnf5 install -y tmux
 dnf5 remove -y waydroid
 dnf5 install -y micro 
+dnf5 install -y alacritty
 
 # Use a COPR Example:
 #
